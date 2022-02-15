@@ -1,0 +1,73 @@
+/* The Modal (background) */
+
+body {
+    background-color: #151515 !important
+}
+
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 50px;
+    /* Location of the box */
+    left: 50;
+    top: 0;
+    width: 20%;
+    /* Full width */
+    height: 20%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+
+/* The Close Button */
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.card-body {
+    margin: 0 auto;
+}
+
+#recherche_section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+@media (min-width: 576px) {
+    #main {
+        width: 75%;
+        margin: 0 auto;
+    }
+}
+
